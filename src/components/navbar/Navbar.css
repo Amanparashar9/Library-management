@@ -1,0 +1,55 @@
+/* main navbar conatiner */
+
+div.sum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20, 19, 19);
+}
+
+
+/* image section */
+
+.logo img {
+    height: 5em;
+    width: 5em;
+    margin-left: 30px;
+}
+
+.logo h1 {
+    color: beige;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top: -3px;
+}
+
+
+/* items section */
+
+.ul {
+    display: flex;
+    margin: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.ul li a {
+    margin: 0 1rem;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 2em;
+    margin-right: 40px;
+}
+
+.ul li a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 12px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+}

@@ -1,0 +1,30 @@
+/* Home page styling */
+
+.container2 {
+    height: 430px;
+    max-width: 91vw;
+    box-shadow: rgba(0, 0, 0, 0.60) 0px 54px 55px, rgba(0, 0, 0, 0.60) 0px -12px 30px, rgba(0, 0, 0, 0.60) 0px 4px 6px, rgba(0, 0, 0, 0.60) 0px 12px 13px, rgba(0, 0, 0, 0.60) 0px -3px 5px;
+    background-color: rgba(240, 232, 232, 0.733);
+    padding: 2em;
+    border-radius: 40px;
+    width: 100%;
+    margin: 1em;
+}
+
+.container2 h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+
+/* image section */
+
+.container2 img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22em;
+    width: 78em;
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 15px;
+}

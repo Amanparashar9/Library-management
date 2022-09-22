@@ -1,0 +1,183 @@
+/* styling of library page */
+
+.container1 {
+    background-image: url('../src/components/images/library-1147815__340.jpg');
+    height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+
+/* Book entry form */
+
+.bookForm {
+    display: grid;
+    width: 35rem;
+    height: 31rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    margin-left: 25em;
+}
+
+
+/* book sections */
+
+#bookName {
+    margin: 12px;
+    font-size: larger;
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+#bookAuthor {
+    margin: 12px;
+    font-size: larger;
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+#read {
+    margin: 12px;
+    font-size: larger;
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+#bookISBN {
+    margin: 12px;
+    font-size: larger;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+#bookYear {
+    margin: 12px;
+    font-size: larger;
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+#bookDescription {
+    margin: 12px;
+    font-size: larger;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+#submit {
+    margin: 8px;
+    border: solid black 3px;
+    border-radius: 15px;
+    width: 10em;
+    height: 3em;
+    margin-left: 16em;
+}
+
+#submit:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* table section */
+
+table {
+    width: 900px;
+    margin: 0px auto;
+    border: solid black 3px;
+    border-radius: 12px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: solid 3px black;
+    padding: 4px;
+    background-color: rgb(121, 121, 121);
+    color: white;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(165, 162, 162);
+    color: white;
+    border-radius: 12px;
+}
+
+#settings {
+    width: 200px;
+}
+
+#settings>* {
+    margin: 4px;
+    border: solid black 2px;
+    border-radius: 12px
+}
+
+
+/* header section */
+
+.Header {
+    display: flex;
+    color: white;
+    width: auto;
+    height: 7rem;
+    background-color: rgb(17, 16, 17);
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    margin-right: 1rem;
+}
+
+.Header>p {
+    margin-left: 24rem;
+    margin-right: auto;
+}
+
+
+/* footer section */
+
+.Footer {
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+#logoHeader {
+    margin-right: 10px;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+}
+
+img {
+    width: 15rem;
+    height: 7rem;
+}
+
+#footerLogo {
+    width: 20px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bookForm,
+    table {
+        width: auto;
+        table-layout: fixed;
+    }
+    td {
+        word-break: break-all;
+    }
+}
