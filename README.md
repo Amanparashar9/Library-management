@@ -28,3 +28,10 @@ You may also see any lint errors in the console.
 ## About Page
 
 ![Screenshot (21)](https://user-images.githubusercontent.com/107232134/191964822-ae05e2bd-f53c-4ee9-b9a1-1d156232488c.png)
+
+# Made By
+AMAN PARASHAR
+
+# Linkedin
+
+https://www.linkedin.com/in/aman-parashar-bb541520a/
