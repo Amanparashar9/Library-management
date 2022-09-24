@@ -29,6 +29,10 @@ You may also see any lint errors in the console.
 
 ![Screenshot (21)](https://user-images.githubusercontent.com/107232134/191964822-ae05e2bd-f53c-4ee9-b9a1-1d156232488c.png)
 
+## Loom video 
+
+https://www.loom.com/share/c81d682788344c0e90a7fc51a4db5048
+
 # Made By
 AMAN PARASHAR
 
